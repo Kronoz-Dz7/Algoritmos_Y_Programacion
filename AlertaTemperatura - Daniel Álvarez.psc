@@ -1,12 +1,12 @@
 Algoritmo AlertaTemperatura
 	Definir temp Como Real;
 	
-	Escribir "Ingrese la temperatura actual en grados Celcius (°C):";
+	Escribir "Ingrese la temperatura actual en grados Celcius (Â°C):";
 	Leer temp;
 	
 	si temp < 0 Entonces
 		Escribir "ADVERTENCIA: Temperatura bajo cero detectada.";
-		Escribir "Riesgo de congelamiento en carreteras.", "Conduzca con precaución.";
+		Escribir "Riesgo de congelamiento en carreteras.", "Conduzca con precauciÃ³n.";
 	FinSi
-	 Escribir "Registro meteorologico completado";
+	 Escribir "Registro meteorolÃ³gico completado";
 FinAlgoritmo
