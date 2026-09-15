@@ -3,11 +3,11 @@ Algoritmo DescuentoEspecial
 	Escribir "Ingrese el valor total de su compra ($):";
 	leer montocompra;
 	
-	montofinal <-- montocompra  //Por defecto no hay descuento
+	montofinal <- montocompra  //Por defecto no hay descuento
 	
 	si montocompra > 10000 Entonces
-		descuento <-- montocompra * 0.10;
-		montofinal <-- montocompra - descuento;
+		descuento <- montocompra * 0.10;
+		montofinal <- montocompra - descuento;
 		Escribir "¡FELICIDADES! Ha recibido un descuento de: $", descuento;
 	FinSi
 	
