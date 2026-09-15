@@ -1,11 +1,14 @@
 Algoritmo NumPositivos
 	Definir num Como Entero;
-	Escribir "Ingrese el número a evaluar.";
+	Escribir "Ingrese el nÃºmero a evaluar.";
 	Leer num;
 	
 	si num > 0 Entonces
-		Escribir "El número ingresado es positivo y es: ", num, ;
+		Escribir "El nÃºmero ingresado es positivo y es: ", num, ;
 		
+	FinSi
+	si num < 0 Entonces
+		Escribir "El nÃºmero ingresado es negativo y es: ", num, ;
 	FinSi
 	Escribir "Fin del programa.";
 FinAlgoritmo
