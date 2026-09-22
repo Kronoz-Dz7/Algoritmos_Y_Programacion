@@ -31,7 +31,9 @@ namespace Programa_Menu
 
                     break;
 
-                case 3: Console.WriteLine("Nombre completo,Documento de identidad,Correo.");
+                case 3: Console.WriteLine("1. Nombre completo: ");
+                        Console.WriteLine("2. Documento de identidad: ");
+                        Console.WriteLine("3. Correo: ");
 
                     break;
                 case 4: Console.WriteLine("contacto@gmail.com");
