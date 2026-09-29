@@ -45,7 +45,7 @@ namespace Proyecto_En_Clase_2_Inicio_o_Login
                 else
                 {
                     intentos++;
-                    Console.WriteLine("Correo o Contraseña incorrectos");
+                    Console.WriteLine("Correo o Contraseña INCORRECTOS!!");
                     Console.WriteLine("Intententos Restantes" + (3 - intentos));
                 }
                 if (intentos  == 3)
