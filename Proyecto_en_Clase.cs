@@ -4,10 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Programa_Menu
+namespace Proyecto_En_Clase
 {
-    //Crea un programa que muestre un menu con 3 opciones y ejecute
-    //una acción dependiendo de la opción seleccionada.
     internal class Program
     {
         static void Main(string[] args)
