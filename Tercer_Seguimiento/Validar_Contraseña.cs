@@ -12,7 +12,7 @@ using System;
 
         do
         {
-            Console.WriteLine("Ingrese su contraseña");
+            Console.WriteLine("Ingrese su contraseña: ");
             clave = Console.ReadLine();
             if (clave != passCorrect)
             {
@@ -21,7 +21,7 @@ using System;
             }
 
         } while (clave != passCorrect);
-        Console.WriteLine("\n Acceso concedido.");
+        Console.WriteLine($"\n Acceso concedido.");
         Console.WriteLine($"Intentos Fallidos: {intentosFallidos}");
 
     }
