@@ -24,7 +24,7 @@ namespace Sistema
             int archivosDescargados = 0;
             double totalMB = 0;
             for( int i = 1; i <= cantidadArchivos; i++) {
-                Console.WriteLine($"\nArchivo #{i} - Nombre (Ecrina `Salir` para detener): ");
+                Console.WriteLine($"\nArchivo #{i} - Nombre (Escriba `Salir` para detener): ");
                 string nombre = Console.ReadLine().Trim();
 
                 if(nombre.ToLower() == "salir"){
