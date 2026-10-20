@@ -44,7 +44,7 @@ namespace Sistema
             }
             Console.WriteLine("\n======== RESUMEN DE DESCARGA ========");
             Console.WriteLine($"Archivos Descargados: {archivosDescargados}");
-            Console.WriteLine($"Total descargado: {totalMB}");
+            Console.WriteLine($"Total descargado: {totalMB} MB");
             Console.WriteLine("=======================================");
         }
     }
