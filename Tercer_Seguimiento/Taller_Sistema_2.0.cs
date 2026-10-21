@@ -41,10 +41,11 @@ namespace Sistema
                     break;
                 }
 
-                if (string.IsNullOrEmpty(nombre) || nombre.Length > 20) {
-                    Console.WriteLine(">> Nombre de archivo inválido. Omitido.");
-                    continue;
+                if (nombre.Length == 0 || nombre.Length > 20) {
+                Console.WriteLine(">> Nombre de archivo inválido. Omitido.");
+                continue;
                 }
+                
                 Console.Write("Tamaño en MB: ");
                 double tamanio = 0;
 
