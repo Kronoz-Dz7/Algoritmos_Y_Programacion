@@ -4,5 +4,5 @@ Algoritmo AreaTriangulo
 	Escribir "Ingrese altura:" ; Leer altura
 	
 	area <- (base * altura) / 2
-	Escribir "Área = ", area 
+	Escribir "Ãrea = ", area 
 FinAlgoritmo
