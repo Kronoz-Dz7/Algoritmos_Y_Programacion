@@ -8,14 +8,19 @@ class Program
 
         while (opcion != 5)
         {
-            Console.WriteLine("MENÚ");
+            Console.WriteLine("\n--- MENÚ DE FIGURAS ---");
             Console.WriteLine("1. Cuadrado ");
             Console.WriteLine("2. Triangulo Rectangulo ");
             Console.WriteLine("3. Piramide Centrada ");
             Console.WriteLine("4. Rombo ");
             Console.WriteLine("5. Salir ");
             Console.WriteLine("Seleccione una opción: ");
-            opcion = Convert.ToInt32(Console.ReadLine());
+            
+            string entrada = Console.ReadLine();
+            if (!int.TryParse(entrada, out opcion))
+            {
+                opcion = 0;
+            }
 
             switch (opcion)
             {
