@@ -5,9 +5,9 @@ Algoritmo ControlVelocidad
 	leer velocidad
 	
 	si velocidad > 80 Entonces
-		Escribir "¡ALERTA! Ha superado el limite de velocidade de 80 km/h.:";
+		Escribir "Â¡ALERTA! Ha superado el limite de velocidade de 80 km/h.:";
 		Escribir "Se ha generadfo una fotomulta automaticamente.:";
 	FinSi
 	
-	Escribir "Evaluación de tránsito finalizada.;";
+	Escribir "EvaluaciÃ³n de trÃ¡nsito finalizada.;";
 FinAlgoritmo
