@@ -1,11 +1,11 @@
-Algoritmo ValidarAprobación
+Algoritmo ValidarAprobaciÃ³n
 	Definir nota Como Real;
-	Escribir "Ingrese la calificación final obtenida (0.0 - 5.0):";
+	Escribir "Ingrese la calificaciÃ³n final obtenida (0.0 - 5.0):";
 	Leer nota;
 	
 	Si nota >= 3.0 Entonces
 		
-		Escribir "¡Enhorabuena! Ha aprobado satisfactoriamente la asignatura.";
+		Escribir "Â¡Enhorabuena! Ha aprobado satisfactoriamente la asignatura.";
 	FinSi
 	si nota < 3.0 Entonces
 		Escribir "Lo setimos. Ha reprobado la asignatura.";
