@@ -113,7 +113,7 @@ class Program
                     break;
 
                 case 5:
-                    Console.WriteLine("\n¡Saliendo del programa. ¡Mucho éxito en tu sustentación!");
+                    Console.WriteLine("\n¡Saliendo del programa!");
                     break;
 
                 default:
