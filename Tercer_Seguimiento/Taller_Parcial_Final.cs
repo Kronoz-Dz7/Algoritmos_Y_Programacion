@@ -17,7 +17,7 @@ namespace Sistema
 
             do
             {
-                Console.WriteLine("   VERIFICACIÓN DE BASE DE DATOS");
+                Console.WriteLine("Verificación En La Base De Datos");
              
                 Console.Write("\nIngrese el usuario: ");
                 usuario = Console.ReadLine() ?? "";
