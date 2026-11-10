@@ -17,10 +17,8 @@ namespace Sistema
 
             do
             {
-                Console.WriteLine("= = = = = = = = = = = = = = = = = =");
                 Console.WriteLine("   VERIFICACIÓN DE BASE DE DATOS");
-                Console.WriteLine("= = = = = = = = = = = = = = = = = =");
-
+             
                 Console.Write("\nIngrese el usuario: ");
                 usuario = Console.ReadLine() ?? "";
 
@@ -36,8 +34,7 @@ namespace Sistema
                     continue;
                 }
 
-                if (usuario == usuarioCorrecto &&
-                    contrasena == contrasenaCorrecta)
+                if (usuario == usuarioCorrecto && contrasena == contrasenaCorrecta)
                 {
                     Console.WriteLine("\nConexion establecida con la base de datos.");
 
@@ -56,10 +53,8 @@ namespace Sistema
 
             if (intentosFallidos == 3 && !conexionEstablecida)
             {
-                Console.WriteLine("\n= = = = = = = = = = = = = = = = = =");
                 Console.WriteLine("Conexion bloqueada por seguridad.");
                 Console.WriteLine("Comuniquese con el administrador del sistema.");
-                Console.WriteLine("= = = = = = = = = = = = = = = = = = =");
             }
 
             Console.WriteLine("\nPresione una tecla para finalizar...");
